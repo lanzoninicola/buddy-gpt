@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "Explain the code",
+    "description": "Take some code you want to understand and ask ChatGPT to explain it to you.",
+    "question": "What is this code doing?",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Improve existing code",
+    "description": "Take some code you want to improve and ask ChatGPT to help you.",
+    "question": "I want to improve this code, how can I do it?",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Write code",
+    "description": "Ask ChatGPT to write some code for you.",
+    "question": "Write some code for me",
+    "requireTextArea": false
+  },
+  {
+    "tag": "Refactor code",
+    "description": "Rewriting code using the correct style.",
+    "question": "Rewrite this code following JavaScript style guide",
+    "requireTextArea": false
+  },
+  {
+    "tag": "Simplify code",
+    "description": "Ask ChatGPT to simplify some code for you.",
+    "question": "Simplify this code for me",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Debug code",
+    "description": "Ask ChatGPT to debug some code for you.",
+    "question": "Debug this code for me",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Optimize code",
+    "description": "Ask ChatGPT to optimize some code for you.",
+    "question": "Optimize this code for me",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Write test cases",
+    "description": "Ask ChatGPT to write some tests for you.",
+    "question": "Write some test case to ensure the code is working correctly",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Exploring alternatives",
+    "description": "Ask ChatGPT to explore some alternatives for you.",
+    "question": "What is a more efficient way to implement this code?",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Translating code",
+    "description": "Ask ChatGPT to translate some code for you.",
+    "question": "Translate this code from <language> to <language>",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Writing documentation",
+    "description": "Ask ChatGPT to write the documentation for a piece of code, and it usually does a great job.",
+    "question": "Write some documentation for this code",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Writing comments",
+    "description": "Ask ChatGPT to write some comments for you.",
+    "question": "Write some comments for this code",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Tracking down bugs",
+    "description": "If you are having trouble finding a bug in your code, ask ChatGPT for help.",
+    "question": "Where is the bug in this code?",
+    "requireTextArea": true
+  },
+  {
+    "tag": "Scaffolding",
+    "description": "Ask ChatGPT to scaffold some code for you.",
+    "question": "Scaffold this code for me",
+    "requireTextArea": true
+  }
+]

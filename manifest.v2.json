@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "BuddyGPT",
+  "version": "0.0.1",
+  "description": "Your perfect buddy for chatGPT.",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "permissions": [],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {},
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b13d04e3-41db-48b3-842c-8079df93c7ad}"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["assets/index.js", "dist/assets/index.js"],
+      "css": ["assets/index.css", "dist/assets/index.css"]
+    }
+  ],
+  "web_accessible_resources": ["regions.json"]
+}

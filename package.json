@@ -1,0 +1,13 @@
+{
+  "name": "buddy-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "serve": "rm -rf dist && mkdir dist && cp -f -r src/frontend/dist/* ./dist",
+    "deploy": "cd src/frontend && npm run build && cd ../.. && npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
